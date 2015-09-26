@@ -1,0 +1,112 @@
+<level roomNumber="19" generateSnow="false" bossRoom="false" NoMusic="false">
+  <width>640</width>
+  <height>480</height>
+  <tilesBelow set="forest">
+    <tile id="1" x="0" y="448"/>
+    <tile id="1" x="32" y="448"/>
+    <tile id="1" x="64" y="448"/>
+    <tile id="1" x="608" y="320"/>
+    <tile id="1" x="96" y="448"/>
+    <tile id="1" x="128" y="448"/>
+    <tile id="1" x="192" y="416"/>
+    <tile id="1" x="224" y="416"/>
+    <tile id="1" x="352" y="448"/>
+    <tile id="1" x="384" y="448"/>
+    <tile id="1" x="416" y="448"/>
+    <tile id="1" x="448" y="448"/>
+    <tile id="1" x="480" y="448"/>
+    <tile id="1" x="512" y="448"/>
+    <tile id="1" x="544" y="448"/>
+    <tile id="1" x="576" y="448"/>
+    <tile id="1" x="576" y="320"/>
+    <tile id="1" x="544" y="320"/>
+    <tile id="14" x="0" y="288"/>
+    <tile id="10" x="0" y="256"/>
+    <tile id="10" x="0" y="224"/>
+    <tile id="10" x="0" y="192"/>
+    <tile id="10" x="0" y="160"/>
+    <tile id="10" x="0" y="128"/>
+    <tile id="10" x="0" y="96"/>
+    <tile id="10" x="0" y="64"/>
+    <tile id="10" x="0" y="32"/>
+    <tile id="10" x="608" y="128"/>
+    <tile id="10" x="608" y="96"/>
+    <tile id="10" x="608" y="64"/>
+    <tile id="10" x="608" y="32"/>
+    <tile id="10" x="608" y="384"/>
+    <tile id="14" x="608" y="160"/>
+    <tile id="14" x="608" y="416"/>
+    <tile id="6" x="608" y="352"/>
+    <tile id="6" x="608" y="0"/>
+    <tile id="6" x="0" y="0"/>
+    <tile id="2" x="608" y="448"/>
+    <tile id="4" x="160" y="416"/>
+    <tile id="4" x="512" y="320"/>
+    <tile id="12" x="160" y="448"/>
+    <tile id="11" x="160" y="384"/>
+    <tile id="11" x="160" y="352"/>
+    <tile id="11" x="160" y="320"/>
+    <tile id="11" x="160" y="288"/>
+    <tile id="11" x="160" y="224"/>
+    <tile id="11" x="160" y="256"/>
+    <tile id="11" x="512" y="288"/>
+    <tile id="11" x="512" y="256"/>
+    <tile id="11" x="512" y="224"/>
+    <tile id="11" x="512" y="192"/>
+    <tile id="11" x="512" y="160"/>
+    <tile id="7" x="512" y="128"/>
+    <tile id="16" x="32" y="416"/>
+    <tile id="17" x="64" y="416"/>
+    <tile id="18" x="96" y="416"/>
+    <tile id="1" x="320" y="448"/>
+    <tile id="5" x="288" y="416"/>
+    <tile id="13" x="288" y="448"/>
+    <tile id="1" x="256" y="416"/>
+    <tile id="8" x="512" y="352"/>
+    <tile id="1" x="480" y="384"/>
+    <tile id="1" x="448" y="384"/>
+    <tile id="1" x="416" y="384"/>
+    <tile id="1" x="384" y="384"/>
+    <tile id="0" x="352" y="384"/>
+    <tile id="12" x="512" y="384"/>
+    <tile id="19" x="352" y="416"/>
+    <tile id="19" x="416" y="416"/>
+    <tile id="23" x="384" y="416"/>
+    <tile id="11" x="352" y="352"/>
+    <tile id="11" x="352" y="320"/>
+    <tile id="11" x="352" y="288"/>
+    <tile id="11" x="352" y="256"/>
+    <tile id="11" x="352" y="224"/>
+    <tile id="11" x="352" y="192"/>
+    <tile id="11" x="352" y="160"/>
+    <tile id="11" x="352" y="128"/>
+    <tile id="11" x="352" y="96"/>
+    <tile id="11" x="352" y="64"/>
+    <tile id="7" x="352" y="32"/>
+    <tile id="7" x="160" y="160"/>
+    <tile id="11" x="160" y="192"/>
+    <tile id="20" x="480" y="352"/>
+    <tile id="23" x="448" y="416"/>
+    <tile id="19" x="576" y="288"/>
+  </tilesBelow>
+  <entities>
+    <seeder x="480" y="416"/>
+    <seeder x="224" y="384"/>
+    <bird x="320" y="160"/>
+    <mineBlock x="320" y="416"/>
+    <missleBlock x="512" y="416"/>
+    <extraMisslesPickUp x="560" y="416"/>
+    <dog x="464" y="352"/>
+  </entities>
+  <solid>
+    <rect x="0" y="0" w="32" h="320"/>
+    <rect x="0" y="448" w="192" h="32"/>
+    <rect x="160" y="416" w="160" h="32"/>
+    <rect x="288" y="448" w="352" h="32"/>
+    <rect x="352" y="384" w="192" h="32"/>
+    <rect x="512" y="320" w="128" h="32"/>
+    <rect x="512" y="352" w="32" h="32"/>
+    <rect x="608" y="0" w="32" h="192"/>
+    <rect x="608" y="352" w="32" h="96"/>
+  </solid>
+</level>

@@ -1,0 +1,25 @@
+URL with track report
+----------------------------------
+
+http://track.g-bot.net/track_stat.php?id=thepower
+
+
+AS3 code (to add first frame)
+----------------------------------
+
+if( loaderInfo.url.substring(0,4) != "file")
+{
+	Security.allowDomain("*");
+	Security.loadPolicyFile("http://track.g-bot.net/crossdomain.xml");
+
+	var variables:URLVariables = new URLVariables();
+	variables.id = "thepower"; // you game ID 
+	variables.ui = loaderInfo.url;
+	
+	var request:URLRequest = new URLRequest("http://track.g-bot.net/track.php");
+	request.method = "POST";
+	request.data = variables;
+	
+	var loader:URLLoader = new URLLoader();
+	loader.load(request);
+}

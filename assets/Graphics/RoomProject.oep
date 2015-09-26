@@ -1,0 +1,95 @@
+<project>
+	<name>The Power Rooms Project</name>
+	<settings>
+		<defaultWidth>640</defaultWidth>
+		<defaultHeight>480</defaultHeight>
+		<workingDirectory>../Graphics</workingDirectory>
+	</settings>
+	<values>
+		<integer name="roomNumber" default="1"/>
+		<boolean name="generateSnow" default="false"/>
+		<boolean name="bossRoom" default="false"/>
+ 		<boolean name="NoMusic" default="false"/>
+	</values>
+	<objects>
+		<object name="playerShip" image="sprites\player\ship.png" width="128" height="48" limit="1"/>
+		<folder name="pickUps">
+			<object name="extraMisslesPickUp" image="sprites\pick ups\extra_missiles_pickup_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32" />
+			<object name="lifePickUp" image="sprites\pick ups\life_pickup_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="minePickUp" image="sprites\pick ups\mine_pickup_strip10.png" width="32" height="32" limit="1" imageWidth="32" imageHeight="32"/>
+			<object name="misslePickUp" image="sprites\pick ups\missile_pickup_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="superMisslePickUp" image="sprites\pick ups\super_missile_pickup_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="suit1PickUp" image="sprites\pick ups\suit1_pickup_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="suit2PickUp" image="sprites\pick ups\suit2_pickup_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="upgradedShotPickUp" image="sprites\pick ups\upgraded_shot_pickup_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="hookPickUp" image="sprites\pick ups\hook_pickup_strip10.png" width="32" height="32" limit="1" imageWidth="32" imageHeight="32"/>
+		</folder>
+		<folder name="enemies">
+			<folder name="castle">
+				<object name="theKing" image="sprites\enemies\TheKing\the king.png" width="32" height="64" limit="1" /> 
+				<object name="powerGuardian" image="sprites\enemies\castle\power_guardian_strip3.png" width="32" height="32" imageWidth="32" imageHeight="32" /> 
+			</folder>
+			<folder name="snow">
+				<object name="bigPengiun" image="sprites\enemies\snow\big_penguin.png" width="64" height="64"/>
+				<object name="bunny" image="sprites\enemies\snow\bunny.png" width="32" height="32">
+					<values>
+						<boolean name="isLaser" default="false"/>
+					</values>
+				</object>
+				<object name="pengiun" image="sprites\enemies\snow\peguin.png" width="32" height="32"/>
+				<object name="freezer" image="sprites\enemies\snow\freezer_strip20.png" width="32" height="32" imageWidth="32" imageHeight="32" />
+				<object name="yeti" image="sprites\enemies\snow\yeti_strip2.png" width="64" height="96" imageWidth="64" imageHeight="96" limit="1" />
+			</folder>
+			<folder name="cave">
+				<object name="frog" image="sprites\enemies\cave\frog_strip5.png" width="192" height="192" imageWidth="192" imageHeight="192" limit="1" /> 
+				<object name="jrFrog" image="sprites\enemies\cave\jr_frog_attack_strip2.png" width="96" height="96" imageWidth="96" imageHeight="96" limit="1" /> 
+				<object name="annoying" image="sprites\enemies\cave\annoying.png" width="32" height="32"/>
+				<object name="superAnnoying" image="sprites\enemies\cave\super_annoying_strip16.png" width="32" height="32" imageHeight="32" imageWidth="32" />
+				<object name="steamHole" image="sprites\enemies\cave\steam_hole.png" width="32" height="32"/>
+			</folder>
+			<folder name="forest">
+				<object name="dog" image="sprites\enemies\forest\dog_right_strip4.png" width="32" height="32" imageWidth="32" imageHeight="32" />
+				<object name="bird" image="sprites\enemies\forest\bird_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32" />
+				<object name="seeder" image="sprites\enemies\forest\seeder_strip2.png" width="32" height="32" imageWidth="32" imageHeight="32" />
+				<object name="giantSeeder" image="sprites\enemies\forest\giant_seeder_strip2.png" width="128" height="128" imageWidth="128" imageHeight="128" imageOffsetX="128" limit="1" />
+			</folder>
+			<folder name="water">
+				<object name="fish" image="sprites\enemies\water\fish.png" width="64" height="64"/>
+				<object name="spikes" image="sprites\enemies\water\spikes.png" width="15" height="15"/>
+				<object name="hangSack" image="sprites\enemies\water\hang_sack_strip12.png" width="32" height="32" imageWidth="32" imageHeight="32">
+					<values>
+						<boolean name="isPowerFull" default="false"/>
+					</values>
+				</object>
+			</folder>
+		</folder>
+		<folder name="blocks">
+			<object name="barrierBlock" image="sprites\blocks\barrier.png" width="32" height="32"/>
+			<object name="jumpThroughBlock" image="sprites\blocks\jump_trough_block.png" width="32" height="16"/>
+			<object name="mineBlock" image="sprites\blocks\mine_block.png" width="32" height="32"/>
+			<object name="missleBlock" image="sprites\blocks\missile_block.png" width="32" height="32"/>
+			<object name="saveBlock" image="sprites\blocks\save_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="superMissleBlcok" image="sprites\blocks\super_missile_block.png" width="32" height="32"/>
+			<object name="upgradedBeamBlock" image="sprites\blocks\upgraded_beam_block_strip10.png" width="32" height="32" imageWidth="32" imageHeight="32"/>
+			<object name="changeDirectionUp" image="sprites\blocks\ChangeDirectionBlocks.png" width="32" height="32" imageWidth="32" imageHeight="32" imageOffsetX="0"/>
+			<object name="changeDirectionDown" image="sprites\blocks\ChangeDirectionBlocks.png" width="32" height="32" imageWidth="32" imageHeight="32" imageOffsetX="32"/>
+			<object name="changeDirectionLeft" image="sprites\blocks\ChangeDirectionBlocks.png" width="32" height="32" imageWidth="32" imageHeight="32" imageOffsetX="64"/>
+			<object name="changeDirectionRight" image="sprites\blocks\ChangeDirectionBlocks.png" width="32" height="32" imageWidth="32" imageHeight="32" imageOffsetX="96"/>
+			<object name="waterBlock" image="sprites\blocks\water.png" width="32" height="32" tile="true" resizableX="true" resizableY="true" />	
+		</folder>
+	</objects>
+	<tilesets>
+		<tileset name="castle" image="tile_sets\castle.png" tileWidth="32" tileHeight="32"/>
+		<tileset name="cave" image="tile_sets\cave.png" tileWidth="32" tileHeight="32"/>
+		<tileset name="forest" image="tile_sets\forest.png" tileWidth="32" tileHeight="32"/>
+		<tileset name="snow" image="tile_sets\snow.png" tileWidth="32" tileHeight="32"/>
+		<tileset name="water" image="tile_sets\water.png" tileWidth="32" tileHeight="32"/>
+	</tilesets>
+	<layers>
+		<tiles name="tilesBelow" gridSize="32" exportTileIDs="true"/>
+		<objects name="entities" gridSize="16"/>
+		<grid name="solid" gridSize="32" exportAsObjects="true"/>
+		<tiles name="tilesAbove" gridSize="32" exportTileIDs="true"/>
+		<objects name="highEntities" gridSize="32"/>
+	</layers>
+</project>

@@ -1,0 +1,133 @@
+<level roomNumber="21" generateSnow="false" bossRoom="false" NoMusic="false">
+  <width>640</width>
+  <height>480</height>
+  <tilesBelow set="forest">
+    <tile id="1" x="0" y="320"/>
+    <tile id="1" x="32" y="320"/>
+    <tile id="1" x="64" y="320"/>
+    <tile id="1" x="96" y="320"/>
+    <tile id="1" x="128" y="320"/>
+    <tile id="1" x="160" y="320"/>
+    <tile id="1" x="192" y="320"/>
+    <tile id="1" x="416" y="320"/>
+    <tile id="1" x="544" y="320"/>
+    <tile id="1" x="576" y="320"/>
+    <tile id="1" x="64" y="160"/>
+    <tile id="1" x="96" y="160"/>
+    <tile id="1" x="128" y="160"/>
+    <tile id="1" x="160" y="160"/>
+    <tile id="1" x="32" y="0"/>
+    <tile id="1" x="64" y="0"/>
+    <tile id="1" x="96" y="0"/>
+    <tile id="1" x="512" y="160"/>
+    <tile id="1" x="544" y="160"/>
+    <tile id="1" x="480" y="160"/>
+    <tile id="1" x="448" y="160"/>
+    <tile id="0" x="0" y="0"/>
+    <tile id="0" x="416" y="160"/>
+    <tile id="0" x="384" y="320"/>
+    <tile id="2" x="224" y="320"/>
+    <tile id="2" x="576" y="160"/>
+    <tile id="2" x="128" y="0"/>
+    <tile id="2" x="192" y="160"/>
+    <tile id="0" x="0" y="160"/>
+    <tile id="1" x="32" y="160"/>
+    <tile id="2" x="608" y="320"/>
+    <tile id="14" x="0" y="128"/>
+    <tile id="14" x="128" y="96"/>
+    <tile id="14" x="448" y="64"/>
+    <tile id="14" x="608" y="288"/>
+    <tile id="6" x="224" y="352"/>
+    <tile id="6" x="384" y="352"/>
+    <tile id="6" x="128" y="32"/>
+    <tile id="6" x="0" y="32"/>
+    <tile id="10" x="224" y="384"/>
+    <tile id="10" x="224" y="416"/>
+    <tile id="10" x="224" y="448"/>
+    <tile id="10" x="384" y="448"/>
+    <tile id="10" x="384" y="416"/>
+    <tile id="10" x="384" y="384"/>
+    <tile id="10" x="128" y="64"/>
+    <tile id="10" x="0" y="64"/>
+    <tile id="10" x="0" y="96"/>
+    <tile id="10" x="448" y="32"/>
+    <tile id="10" x="448" y="0"/>
+    <tile id="10" x="608" y="256"/>
+    <tile id="10" x="608" y="224"/>
+    <tile id="10" x="608" y="192"/>
+    <tile id="10" x="608" y="160"/>
+    <tile id="10" x="608" y="128"/>
+    <tile id="10" x="608" y="96"/>
+    <tile id="10" x="608" y="64"/>
+    <tile id="10" x="608" y="32"/>
+    <tile id="10" x="608" y="0"/>
+    <tile id="11" x="224" y="288"/>
+    <tile id="11" x="224" y="256"/>
+    <tile id="11" x="224" y="224"/>
+    <tile id="11" x="224" y="192"/>
+    <tile id="11" x="224" y="160"/>
+    <tile id="11" x="224" y="128"/>
+    <tile id="11" x="224" y="96"/>
+    <tile id="11" x="224" y="64"/>
+    <tile id="11" x="384" y="288"/>
+    <tile id="11" x="384" y="256"/>
+    <tile id="11" x="384" y="224"/>
+    <tile id="11" x="384" y="192"/>
+    <tile id="11" x="384" y="160"/>
+    <tile id="11" x="384" y="128"/>
+    <tile id="11" x="384" y="96"/>
+    <tile id="11" x="384" y="64"/>
+    <tile id="7" x="224" y="32"/>
+    <tile id="7" x="384" y="32"/>
+    <tile id="22" x="448" y="128"/>
+    <tile id="5" x="448" y="320"/>
+    <tile id="13" x="448" y="352"/>
+    <tile id="1" x="480" y="352"/>
+    <tile id="12" x="512" y="352"/>
+    <tile id="4" x="512" y="320"/>
+    <tile id="19" x="448" y="288"/>
+    <tile id="19" x="512" y="288"/>
+  </tilesBelow>
+  <entities>
+    <saveBlock x="480" y="320"/>
+    <jumpThroughBlock x="288" y="448"/>
+    <jumpThroughBlock x="320" y="448"/>
+    <jumpThroughBlock x="288" y="320"/>
+    <jumpThroughBlock x="320" y="320"/>
+    <jumpThroughBlock x="512" y="64"/>
+    <jumpThroughBlock x="544" y="64"/>
+    <jumpThroughBlock x="272" y="224"/>
+    <jumpThroughBlock x="304" y="224"/>
+    <jumpThroughBlock x="336" y="224"/>
+    <extraMisslesPickUp x="64" y="128"/>
+    <missleBlock x="128" y="128"/>
+    <jumpThroughBlock x="288" y="384"/>
+    <jumpThroughBlock x="320" y="384"/>
+  </entities>
+  <solid>
+    <rect x="0" y="0" w="160" h="32"/>
+    <rect x="0" y="32" w="32" h="160"/>
+    <rect x="0" y="320" w="256" h="32"/>
+    <rect x="32" y="160" w="192" h="32"/>
+    <rect x="128" y="32" w="32" h="96"/>
+    <rect x="224" y="352" w="32" h="128"/>
+    <rect x="384" y="320" w="96" h="32"/>
+    <rect x="384" y="352" w="32" h="128"/>
+    <rect x="416" y="160" w="224" h="32"/>
+    <rect x="448" y="0" w="32" h="96"/>
+    <rect x="448" y="352" w="96" h="32"/>
+    <rect x="512" y="320" w="128" h="32"/>
+    <rect x="608" y="0" w="32" h="160"/>
+    <rect x="608" y="192" w="32" h="128"/>
+  </solid>
+  <tilesAbove set="forest">
+    <tile id="16" x="32" y="288"/>
+    <tile id="17" x="64" y="288"/>
+    <tile id="17" x="96" y="288"/>
+    <tile id="17" x="128" y="288"/>
+    <tile id="17" x="160" y="288"/>
+    <tile id="18" x="192" y="288"/>
+    <tile id="23" x="32" y="128"/>
+    <tile id="23" x="96" y="128"/>
+  </tilesAbove>
+</level>

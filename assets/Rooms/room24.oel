@@ -1,0 +1,148 @@
+<level roomNumber="24" generateSnow="false" bossRoom="false" NoMusic="false">
+  <width>640</width>
+  <height>480</height>
+  <tilesBelow set="cave">
+    <tile id="1" x="0" y="448"/>
+    <tile id="1" x="32" y="448"/>
+    <tile id="1" x="608" y="288"/>
+    <tile id="1" x="576" y="288"/>
+    <tile id="1" x="480" y="384"/>
+    <tile id="1" x="448" y="384"/>
+    <tile id="1" x="512" y="384"/>
+    <tile id="1" x="416" y="384"/>
+    <tile id="1" x="384" y="384"/>
+    <tile id="1" x="352" y="384"/>
+    <tile id="1" x="320" y="384"/>
+    <tile id="1" x="160" y="352"/>
+    <tile id="1" x="192" y="352"/>
+    <tile id="1" x="224" y="352"/>
+    <tile id="1" x="256" y="352"/>
+    <tile id="3" x="288" y="224"/>
+    <tile id="3" x="352" y="224"/>
+    <tile id="3" x="416" y="224"/>
+    <tile id="3" x="480" y="224"/>
+    <tile id="25" x="608" y="128"/>
+    <tile id="25" x="544" y="64"/>
+    <tile id="25" x="512" y="64"/>
+    <tile id="25" x="480" y="64"/>
+    <tile id="25" x="448" y="64"/>
+    <tile id="25" x="416" y="64"/>
+    <tile id="25" x="384" y="64"/>
+    <tile id="25" x="352" y="64"/>
+    <tile id="25" x="320" y="64"/>
+    <tile id="25" x="288" y="64"/>
+    <tile id="25" x="224" y="224"/>
+    <tile id="25" x="192" y="224"/>
+    <tile id="25" x="160" y="224"/>
+    <tile id="25" x="128" y="224"/>
+    <tile id="25" x="96" y="224"/>
+    <tile id="25" x="0" y="288"/>
+    <tile id="8" x="576" y="96"/>
+    <tile id="8" x="544" y="320"/>
+    <tile id="8" x="544" y="352"/>
+    <tile id="9" x="256" y="96"/>
+    <tile id="9" x="256" y="128"/>
+    <tile id="9" x="256" y="160"/>
+    <tile id="9" x="256" y="192"/>
+    <tile id="21" x="256" y="224"/>
+    <tile id="20" x="576" y="128"/>
+    <tile id="4" x="544" y="288"/>
+    <tile id="5" x="288" y="352"/>
+    <tile id="12" x="544" y="384"/>
+    <tile id="13" x="288" y="384"/>
+    <tile id="17" x="256" y="64"/>
+    <tile id="16" x="576" y="64"/>
+    <tile id="22" x="320" y="352"/>
+    <tile id="22" x="320" y="320"/>
+    <tile id="22" x="384" y="352"/>
+    <tile id="22" x="384" y="320"/>
+    <tile id="22" x="384" y="288"/>
+    <tile id="22" x="448" y="352"/>
+    <tile id="22" x="448" y="320"/>
+    <tile id="22" x="448" y="288"/>
+    <tile id="22" x="512" y="352"/>
+    <tile id="22" x="512" y="320"/>
+    <tile id="14" x="384" y="256"/>
+    <tile id="14" x="448" y="256"/>
+    <tile id="1" x="128" y="352"/>
+    <tile id="25" x="64" y="224"/>
+    <tile id="9" x="32" y="256"/>
+    <tile id="21" x="32" y="288"/>
+    <tile id="17" x="32" y="224"/>
+    <tile id="4" x="96" y="352"/>
+    <tile id="8" x="96" y="384"/>
+    <tile id="8" x="96" y="416"/>
+    <tile id="1" x="64" y="448"/>
+    <tile id="12" x="96" y="448"/>
+    <tile id="30" x="64" y="256"/>
+    <tile id="30" x="64" y="288"/>
+    <tile id="14" x="320" y="288"/>
+    <tile id="14" x="512" y="288"/>
+    <tile id="23" x="416" y="192"/>
+    <tile id="15" x="128" y="320"/>
+  </tilesBelow>
+  <entities>
+    <changeDirectionUp x="320" y="224"/>
+    <changeDirectionUp x="384" y="224"/>
+    <changeDirectionUp x="448" y="224"/>
+    <changeDirectionUp x="352" y="352"/>
+    <changeDirectionUp x="416" y="352"/>
+    <changeDirectionUp x="480" y="352"/>
+    <changeDirectionDown x="320" y="96"/>
+    <changeDirectionDown x="384" y="96"/>
+    <changeDirectionDown x="448" y="96"/>
+    <changeDirectionDown x="352" y="256"/>
+    <changeDirectionDown x="416" y="256"/>
+    <changeDirectionDown x="480" y="256"/>
+    <changeDirectionDown x="192" y="256"/>
+    <changeDirectionUp x="192" y="320"/>
+    <superAnnoying x="192" y="256"/>
+    <superAnnoying x="352" y="256"/>
+    <superAnnoying x="416" y="352"/>
+    <superAnnoying x="480" y="256"/>
+    <superAnnoying x="320" y="96"/>
+    <superAnnoying x="384" y="224"/>
+    <superAnnoying x="448" y="96"/>
+    <extraMisslesPickUp x="288" y="192"/>
+    <changeDirectionDown x="160" y="256"/>
+    <changeDirectionDown x="224" y="256"/>
+    <changeDirectionUp x="160" y="320"/>
+    <changeDirectionUp x="224" y="320"/>
+    <superAnnoying x="160" y="256"/>
+    <superAnnoying x="224" y="256"/>
+  </entities>
+  <solid>
+    <rect x="0" y="288" w="64" h="32"/>
+    <rect x="0" y="448" w="128" h="32"/>
+    <rect x="32" y="224" w="288" h="32"/>
+    <rect x="32" y="256" w="32" h="32"/>
+    <rect x="96" y="352" w="224" h="32"/>
+    <rect x="96" y="384" w="32" h="64"/>
+    <rect x="256" y="64" w="352" h="32"/>
+    <rect x="256" y="96" w="32" h="128"/>
+    <rect x="288" y="384" w="288" h="32"/>
+    <rect x="352" y="224" w="32" h="32"/>
+    <rect x="416" y="224" w="32" h="32"/>
+    <rect x="480" y="224" w="32" h="32"/>
+    <rect x="544" y="288" w="96" h="32"/>
+    <rect x="544" y="320" w="32" h="64"/>
+    <rect x="576" y="96" w="32" h="64"/>
+    <rect x="608" y="128" w="32" h="32"/>
+  </solid>
+  <tilesAbove set="cave">
+    <tile id="29" x="544" y="96"/>
+    <tile id="29" x="512" y="96"/>
+    <tile id="29" x="480" y="96"/>
+    <tile id="29" x="448" y="96"/>
+    <tile id="29" x="416" y="96"/>
+    <tile id="29" x="384" y="96"/>
+    <tile id="29" x="352" y="96"/>
+    <tile id="29" x="320" y="96"/>
+    <tile id="29" x="288" y="96"/>
+    <tile id="29" x="0" y="320"/>
+    <tile id="29" x="32" y="320"/>
+    <tile id="28" x="0" y="416"/>
+    <tile id="28" x="32" y="416"/>
+    <tile id="28" x="64" y="416"/>
+  </tilesAbove>
+</level>

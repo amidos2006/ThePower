@@ -1,0 +1,108 @@
+<level roomNumber="0" generateSnow="true" bossRoom="false" NoMusic="false">
+  <width>640</width>
+  <height>480</height>
+  <tilesBelow set="snow">
+    <tile id="10" x="0" y="416"/>
+    <tile id="10" x="0" y="384"/>
+    <tile id="10" x="0" y="352"/>
+    <tile id="10" x="0" y="320"/>
+    <tile id="10" x="0" y="288"/>
+    <tile id="10" x="0" y="256"/>
+    <tile id="10" x="0" y="224"/>
+    <tile id="10" x="0" y="192"/>
+    <tile id="10" x="0" y="160"/>
+    <tile id="10" x="0" y="128"/>
+    <tile id="10" x="0" y="96"/>
+    <tile id="10" x="0" y="64"/>
+    <tile id="10" x="0" y="32"/>
+    <tile id="6" x="0" y="0"/>
+    <tile id="1" x="192" y="384"/>
+    <tile id="1" x="224" y="384"/>
+    <tile id="1" x="256" y="384"/>
+    <tile id="1" x="288" y="384"/>
+    <tile id="12" x="320" y="384"/>
+    <tile id="8" x="320" y="352"/>
+    <tile id="8" x="320" y="320"/>
+    <tile id="4" x="320" y="288"/>
+    <tile id="1" x="352" y="288"/>
+    <tile id="1" x="384" y="288"/>
+    <tile id="1" x="416" y="288"/>
+    <tile id="1" x="448" y="288"/>
+    <tile id="1" x="480" y="288"/>
+    <tile id="1" x="512" y="288"/>
+    <tile id="1" x="544" y="288"/>
+    <tile id="1" x="576" y="288"/>
+    <tile id="1" x="608" y="288"/>
+    <tile id="14" x="608" y="128"/>
+    <tile id="10" x="608" y="96"/>
+    <tile id="10" x="608" y="64"/>
+    <tile id="10" x="608" y="32"/>
+    <tile id="6" x="608" y="0"/>
+    <tile id="2" x="224" y="224"/>
+    <tile id="1" x="192" y="224"/>
+    <tile id="1" x="160" y="224"/>
+    <tile id="1" x="128" y="224"/>
+    <tile id="1" x="96" y="224"/>
+    <tile id="1" x="64" y="224"/>
+    <tile id="0" x="32" y="224"/>
+    <tile id="0" x="32" y="128"/>
+    <tile id="1" x="64" y="128"/>
+    <tile id="1" x="96" y="128"/>
+    <tile id="2" x="128" y="128"/>
+    <tile id="15" x="192" y="192"/>
+    <tile id="11" x="192" y="160"/>
+    <tile id="11" x="192" y="128"/>
+    <tile id="11" x="192" y="96"/>
+    <tile id="7" x="192" y="64"/>
+    <tile id="15" x="416" y="256"/>
+    <tile id="15" x="448" y="256"/>
+    <tile id="15" x="480" y="256"/>
+    <tile id="11" x="416" y="224"/>
+    <tile id="11" x="448" y="224"/>
+    <tile id="11" x="480" y="224"/>
+    <tile id="11" x="480" y="192"/>
+    <tile id="11" x="448" y="192"/>
+    <tile id="11" x="416" y="192"/>
+    <tile id="11" x="448" y="160"/>
+    <tile id="7" x="416" y="160"/>
+    <tile id="7" x="448" y="128"/>
+    <tile id="7" x="480" y="160"/>
+    <tile id="16" x="32" y="96"/>
+    <tile id="17" x="64" y="96"/>
+    <tile id="18" x="96" y="96"/>
+    <tile id="21" x="96" y="192"/>
+    <tile id="22" x="32" y="192"/>
+    <tile id="22" x="288" y="352"/>
+    <tile id="10" x="0" y="448"/>
+    <tile id="6" x="160" y="416"/>
+    <tile id="10" x="160" y="448"/>
+    <tile id="0" x="160" y="384"/>
+  </tilesBelow>
+  <entities>
+    <extraMisslesPickUp x="64" y="192"/>
+    <missleBlock x="128" y="160"/>
+    <missleBlock x="128" y="192"/>
+    <jumpThroughBlock x="64" y="464"/>
+    <jumpThroughBlock x="96" y="464"/>
+    <jumpThroughBlock x="64" y="384"/>
+    <jumpThroughBlock x="96" y="384"/>
+  </entities>
+  <solid>
+    <rect x="0" y="0" w="32" h="480"/>
+    <rect x="32" y="128" w="128" h="32"/>
+    <rect x="32" y="224" w="224" h="32"/>
+    <rect x="160" y="384" w="192" h="32"/>
+    <rect x="160" y="416" w="32" h="64"/>
+    <rect x="320" y="288" w="320" h="32"/>
+    <rect x="320" y="320" w="32" h="64"/>
+    <rect x="608" y="0" w="32" h="160"/>
+  </solid>
+  <tilesAbove set="snow">
+    <tile id="16" x="320" y="256"/>
+    <tile id="16" x="512" y="256"/>
+    <tile id="17" x="352" y="256"/>
+    <tile id="17" x="544" y="256"/>
+    <tile id="18" x="384" y="256"/>
+    <tile id="18" x="576" y="256"/>
+  </tilesAbove>
+</level>

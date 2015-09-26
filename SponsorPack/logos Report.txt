@@ -1,0 +1,70 @@
+﻿logos.swf Movie Report
+-----------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1          32297          32297    Scène 1 (AS 3.0 Classes Export Frame)
+      2             19          32316    
+      3          10480          42796    
+      4          38946          81742    
+      5          14389          96131    
+      6          17370         113501    
+      7            439         113940    
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Scène 1              0           858                   964
+
+Symbol                                  Shape Bytes    Text Bytes    ActionScript Bytes
+------------------------------------    -----------    ----------    ------------------
+gpirate_button                                    0             0                     0
+gpirate_button3                                   0             0                     0
+gpirate_ingame                                    0             0                     0
+gpirate_piratebg                                 46             0                     0
+gpirate_Symbool 1                               392             0                     0
+gpirate_Symbool 2                                 0             0                     0
+gpirate_Symbool 3                               984             0                     0
+gpirate_Symbool 13                              392             0                     0
+gpirate_Symbool 23                              657             0                     0
+gpirate33_button                                  0             0                     0
+gpirate33_piratebutton                           35             0                     0
+gpirate33_pirateglowerinner                     420             0                     0
+gpirate33_Symbool 1                             392             0                     0
+gpirate33_Symbool 2                               0             0                     0
+Kopie van gpirate_piratebutton3                  46             0                     0
+Kopie van gpirate_pirateglowerinne33              0             0                     0
+myLoading                                       131             0                     0
+Symbool 1                                         0             0                     0
+Symbool 23                                      402             0                     0
+
+
+Tweened Shapes: 380 bytes
+
+Font Name            Bytes         Characters
+-----------------    ----------    ----------
+Impact                     3060     ',.?AISWabcdefghijklmnoprstuvwxy 
+Arial-BoldMT Bold          1550     abcdelnoprstuw 
+
+ActionScript Bytes    Location
+------------------    --------
+               964    Scène 1:Frame 1
+
+Bitmap      Compressed    Original      Compression
+--------    ----------    ----------    -----------
+Bitmap 5         22298       1230072    JPEG Quality=80
+Bitmap 6         10421       1230072    JPEG Quality=80
+Bitmap 7         37247       1230072    JPEG Quality=80
+Bitmap 8         11209       1230072    JPEG Quality=80
+Bitmap 9         16980       1235208    JPEG Quality=80
+
+Event Sounds: 11KHz Mono 16 kbps MP3
+
+
+Sound name         Bytes         Format
+---------------    ----------    ------
+gpirate_b3f.wav           511    11KHz Mono 16 kbps MP3
+gpirate_b2f.wav           677    11KHz Mono 16 kbps MP3
+
+
+
+

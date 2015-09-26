@@ -1,0 +1,191 @@
+<level roomNumber="25" generateSnow="false" bossRoom="false" NoMusic="false">
+  <width>640</width>
+  <height>480</height>
+  <tilesBelow set="cave">
+    <tile id="1" x="0" y="288"/>
+    <tile id="1" x="32" y="288"/>
+    <tile id="1" x="608" y="448"/>
+    <tile id="1" x="576" y="448"/>
+    <tile id="1" x="544" y="448"/>
+    <tile id="1" x="512" y="448"/>
+    <tile id="1" x="416" y="416"/>
+    <tile id="1" x="384" y="128"/>
+    <tile id="1" x="576" y="256"/>
+    <tile id="1" x="256" y="320"/>
+    <tile id="1" x="224" y="320"/>
+    <tile id="1" x="192" y="320"/>
+    <tile id="1" x="160" y="320"/>
+    <tile id="1" x="128" y="320"/>
+    <tile id="1" x="352" y="416"/>
+    <tile id="1" x="384" y="416"/>
+    <tile id="25" x="0" y="128"/>
+    <tile id="25" x="32" y="128"/>
+    <tile id="25" x="64" y="128"/>
+    <tile id="25" x="128" y="96"/>
+    <tile id="25" x="160" y="96"/>
+    <tile id="25" x="288" y="0"/>
+    <tile id="25" x="320" y="0"/>
+    <tile id="25" x="352" y="0"/>
+    <tile id="25" x="384" y="0"/>
+    <tile id="25" x="416" y="0"/>
+    <tile id="25" x="448" y="0"/>
+    <tile id="25" x="480" y="0"/>
+    <tile id="25" x="576" y="288"/>
+    <tile id="25" x="608" y="288"/>
+    <tile id="25" x="352" y="352"/>
+    <tile id="5" x="448" y="192"/>
+    <tile id="5" x="416" y="128"/>
+    <tile id="3" x="192" y="192"/>
+    <tile id="3" x="160" y="224"/>
+    <tile id="3" x="224" y="224"/>
+    <tile id="3" x="192" y="224"/>
+    <tile id="3" x="192" y="256"/>
+    <tile id="3" x="480" y="320"/>
+    <tile id="4" x="288" y="256"/>
+    <tile id="4" x="320" y="192"/>
+    <tile id="4" x="352" y="128"/>
+    <tile id="4" x="544" y="256"/>
+    <tile id="20" x="576" y="96"/>
+    <tile id="20" x="544" y="288"/>
+    <tile id="20" x="544" y="64"/>
+    <tile id="20" x="512" y="32"/>
+    <tile id="21" x="384" y="352"/>
+    <tile id="21" x="416" y="256"/>
+    <tile id="21" x="448" y="224"/>
+    <tile id="21" x="256" y="32"/>
+    <tile id="21" x="224" y="64"/>
+    <tile id="21" x="192" y="96"/>
+    <tile id="21" x="96" y="128"/>
+    <tile id="8" x="288" y="288"/>
+    <tile id="8" x="320" y="224"/>
+    <tile id="8" x="352" y="160"/>
+    <tile id="8" x="608" y="224"/>
+    <tile id="8" x="608" y="192"/>
+    <tile id="8" x="608" y="160"/>
+    <tile id="8" x="608" y="128"/>
+    <tile id="9" x="416" y="160"/>
+    <tile id="9" x="384" y="288"/>
+    <tile id="9" x="384" y="320"/>
+    <tile id="9" x="320" y="384"/>
+    <tile id="13" x="320" y="416"/>
+    <tile id="13" x="416" y="192"/>
+    <tile id="12" x="288" y="320"/>
+    <tile id="12" x="320" y="256"/>
+    <tile id="12" x="352" y="192"/>
+    <tile id="12" x="608" y="256"/>
+    <tile id="17" x="96" y="96"/>
+    <tile id="17" x="192" y="64"/>
+    <tile id="17" x="224" y="32"/>
+    <tile id="17" x="256" y="0"/>
+    <tile id="17" x="416" y="224"/>
+    <tile id="17" x="384" y="256"/>
+    <tile id="17" x="320" y="352"/>
+    <tile id="16" x="608" y="96"/>
+    <tile id="16" x="576" y="64"/>
+    <tile id="16" x="544" y="32"/>
+    <tile id="16" x="512" y="0"/>
+    <tile id="1" x="480" y="448"/>
+    <tile id="5" x="448" y="416"/>
+    <tile id="13" x="448" y="448"/>
+    <tile id="28" x="480" y="288"/>
+    <tile id="28" x="160" y="192"/>
+    <tile id="28" x="192" y="160"/>
+    <tile id="28" x="224" y="192"/>
+    <tile id="29" x="160" y="256"/>
+    <tile id="29" x="192" y="288"/>
+    <tile id="29" x="224" y="256"/>
+    <tile id="31" x="128" y="224"/>
+    <tile id="30" x="256" y="224"/>
+    <tile id="30" x="512" y="320"/>
+    <tile id="29" x="480" y="352"/>
+    <tile id="31" x="448" y="320"/>
+    <tile id="30" x="480" y="192"/>
+    <tile id="30" x="480" y="224"/>
+    <tile id="22" x="544" y="224"/>
+    <tile id="22" x="544" y="192"/>
+    <tile id="22" x="544" y="160"/>
+    <tile id="29" x="32" y="160"/>
+    <tile id="29" x="64" y="160"/>
+    <tile id="28" x="64" y="256"/>
+    <tile id="28" x="32" y="256"/>
+    <tile id="14" x="544" y="128"/>
+    <tile id="19" x="320" y="160"/>
+    <tile id="15" x="128" y="288"/>
+    <tile id="23" x="576" y="416"/>
+    <tile id="22" x="352" y="96"/>
+    <tile id="22" x="352" y="64"/>
+    <tile id="18" x="416" y="96"/>
+    <tile id="18" x="416" y="64"/>
+    <tile id="14" x="352" y="32"/>
+    <tile id="14" x="416" y="32"/>
+    <tile id="5" x="64" y="288"/>
+    <tile id="13" x="64" y="320"/>
+    <tile id="1" x="96" y="320"/>
+  </tilesBelow>
+  <entities>
+    <superMissleBlcok x="384" y="384"/>
+    <extraMisslesPickUp x="352" y="384"/>
+    <changeDirectionRight x="448" y="288"/>
+    <changeDirectionRight x="448" y="128"/>
+    <changeDirectionRight x="448" y="160"/>
+    <changeDirectionRight x="128" y="192"/>
+    <changeDirectionRight x="160" y="160"/>
+    <changeDirectionRight x="224" y="192"/>
+    <changeDirectionUp x="160" y="192"/>
+    <changeDirectionUp x="128" y="256"/>
+    <changeDirectionUp x="160" y="288"/>
+    <changeDirectionLeft x="256" y="256"/>
+    <changeDirectionLeft x="224" y="288"/>
+    <changeDirectionDown x="224" y="160"/>
+    <changeDirectionDown x="256" y="192"/>
+    <changeDirectionLeft x="160" y="256"/>
+    <changeDirectionDown x="224" y="256"/>
+    <changeDirectionLeft x="576" y="128"/>
+    <changeDirectionLeft x="576" y="160"/>
+    <changeDirectionLeft x="512" y="352"/>
+    <changeDirectionUp x="448" y="352"/>
+    <changeDirectionDown x="512" y="288"/>
+    <superAnnoying x="512" y="352"/>
+    <superAnnoying x="448" y="160"/>
+    <superAnnoying x="448" y="128"/>
+    <superAnnoying x="128" y="256"/>
+    <superAnnoying x="160" y="160"/>
+    <superAnnoying x="256" y="192"/>
+    <superAnnoying x="224" y="288"/>
+    <changeDirectionUp x="384" y="96"/>
+    <changeDirectionDown x="384" y="32"/>
+    <superAnnoying x="384" y="32"/>
+  </entities>
+  <solid>
+    <rect x="0" y="128" w="128" h="32"/>
+    <rect x="0" y="288" w="96" h="32"/>
+    <rect x="64" y="320" w="256" h="32"/>
+    <rect x="96" y="96" w="128" h="32"/>
+    <rect x="160" y="224" w="96" h="32"/>
+    <rect x="192" y="64" w="64" h="32"/>
+    <rect x="192" y="192" w="32" h="32"/>
+    <rect x="192" y="256" w="32" h="32"/>
+    <rect x="224" y="32" w="64" h="32"/>
+    <rect x="256" y="0" w="288" h="32"/>
+    <rect x="288" y="256" w="64" h="32"/>
+    <rect x="288" y="288" w="32" h="32"/>
+    <rect x="320" y="192" w="64" h="32"/>
+    <rect x="320" y="224" w="32" h="32"/>
+    <rect x="320" y="352" w="96" h="32"/>
+    <rect x="320" y="384" w="32" h="64"/>
+    <rect x="352" y="128" w="96" h="32"/>
+    <rect x="352" y="160" w="32" h="32"/>
+    <rect x="352" y="416" w="128" h="32"/>
+    <rect x="384" y="256" w="64" h="32"/>
+    <rect x="384" y="288" w="32" h="64"/>
+    <rect x="416" y="160" w="32" h="96"/>
+    <rect x="448" y="192" w="32" h="64"/>
+    <rect x="448" y="448" w="192" h="32"/>
+    <rect x="480" y="320" w="32" h="32"/>
+    <rect x="512" y="32" w="64" h="32"/>
+    <rect x="544" y="64" w="64" h="32"/>
+    <rect x="544" y="256" w="96" h="64"/>
+    <rect x="576" y="96" w="64" h="32"/>
+    <rect x="608" y="128" w="32" h="128"/>
+  </solid>
+</level>
